@@ -1,30 +1,121 @@
+@font-face {
+    font-family: "Qatar2022";
+    src: url(/assets/fonts/Qatar2022/Qatar2022Arabic-Bold.ttf);
+}
+
 body {
     background-color: #8D1B3D;
     color: #fff;
+    font-family: "Qatar2022";
 }
+
+/* ---------------------------------------------- Landing Page */
 
 h1 {
     text-align: center;
+    color: #fff;
+    font-family: "Qatar2022";
 }
 
-h2 {
+h3 {
+    padding: 50px 0 50px 0;
     text-align: center;
 }
 
+.display-4 {
+    color: #8D1B3D;
+}
+
+/* ----------------------------------------------  Nav */
+
+.nav-link {
+    font-size: 1.2em;
+    color: #000;
+    padding-top: 30px;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+    color:#000;
+}
+
+/* ----------------------------------------------  Jumbotron */
+
+.jumbotron {
+    text-align: center;
+}
+
+.jumbotron > p {
+    color: #000;
+    font-size: 1.2em;
+}
+
+#kick-off-link {
+    text-align: center;
+    color: #8D1B3D;
+    text-decoration: none;
+    font-size: 2em;
+}
+
+#kick-off-link:hover {
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+}
+
+h4 {
+    text-align: center;
+}
+
+/* ---------------------------------------------- Quiz Page */
 
 img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
-}
-
-button {
-    width: 50%;
-    padding: 10px;
-    font-size: 2em;
+    width: 70%;
 }
 
 .btn-container {
     text-align: center;
+}
+
+.btn-primary {
+    color: #8D1B3D;
+    background-color: #fff;
+    border-color: #8D1B3D;
+    width: 70%;
+    padding: 10px;
+    font-size: 1.2em;
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #8D1B3D;
+    border-color: #fff;
+    width: 70%;
+    padding: 10px;
+    font-size: 1.2em;
+}
+
+.round-title {
+    padding-top: 20px;
+    font-size: 2em;
+}
+
+.round-text {
+    font-size: 1em;
+    text-align: center;
+    color: #000;
+    padding-bottom: 20px;
+}
+
+.next-round-section {
+    text-align: center;
+}
+
+.next-round-button {
+    color: #8D1B3D;
+    border-color: #8D1B3D;
+    text-decoration: none;
 }
