@@ -119,3 +119,11 @@ img {
     border-color: #8D1B3D;
     text-decoration: none;
 }
+
+/* ---------------------------------------------- Footer */
+
+footer > p {
+    text-align: center;
+    color: #000;
+    padding-top: 70px;
+}
